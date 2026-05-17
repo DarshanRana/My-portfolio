@@ -10,7 +10,7 @@
 
 .nav-scrolled {
   padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 .nav-container {
@@ -26,10 +26,17 @@
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: -0.5px;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
 }
 
 .logo-accent {
-  color: var(--primary);
+  background: linear-gradient(135deg, #a855f7, #6366f1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 1px;
 }
 
 .nav-links {
@@ -43,6 +50,7 @@
   font-weight: 500;
   color: var(--text-secondary);
   transition: var(--transition);
+  font-size: 0.95rem;
 }
 
 .nav-links a:hover {
@@ -50,7 +58,13 @@
 }
 
 .nav-cta {
-  padding: 0.5rem 1.25rem;
+  padding: 0.6rem 1.5rem !important;
+  font-size: 0.9rem !important;
+  box-shadow: 0 4px 18px rgba(99, 102, 241, 0.4), 0 0 8px rgba(168, 85, 247, 0.15) !important;
+}
+
+.nav-cta:hover {
+  box-shadow: 0 6px 25px rgba(99, 102, 241, 0.65), 0 0 12px rgba(168, 85, 247, 0.3) !important;
 }
 
 @media (max-width: 768px) {

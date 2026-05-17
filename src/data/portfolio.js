@@ -5,6 +5,11 @@ export const portfolioData = {
     tagline: "Transforming complex problems into elegant web applications and AI-driven solutions.",
     image: "/assets/profile_nobg.png",
   },
+  socials: {
+    github: "https://github.com/DarshanRana",
+    linkedin: "https://www.linkedin.com/in/darshan-rana-286736306/",
+    email: "mailto:darshanrana821@gmail.com"
+  },
   about: {
     bio: "I am a versatile Software Engineer passionate about building intelligent, high-performance applications. My expertise spans from crafting dynamic, real-time web interfaces using React and TypeScript, to developing machine learning models and simulations with Python. I thrive at the intersection of complex data problems and elegant user experiences.",
     skills: [
@@ -24,7 +29,7 @@ export const portfolioData = {
       tech: ["React", "TypeScript", "Vite", "Supabase", "Tailwind CSS"],
       image: "/assets/project_1_placeholder_1775472262974.png", // We will link it properly in the component or dynamically if names changed. Since wildcards are copied, let's just use generic names later or rename them in the public folder. Let me just use abstract references.
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/DarshanRana/AWACS.git"
     },
     {
       id: 2,
@@ -33,7 +38,7 @@ export const portfolioData = {
       tech: ["React", "Tailwind CSS", "Framer Motion", "Leaflet"],
       image: "/assets/shipgod_mockup.png",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/DarshanRana/ShipGod.git"
     },
     {
       id: 3,
@@ -42,7 +47,7 @@ export const portfolioData = {
       tech: ["Python", "Pygame", "scikit-learn", "Pandas", "NumPy"],
       image: "/assets/project_3_placeholder_1775472302078.png",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/DarshanRana/Sudarshan-AI-.git"
     }
   ],
   education: [

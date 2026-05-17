@@ -22,7 +22,7 @@ const Navbar = () => {
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Work</a></li>
           <li><a href="#education">Education</a></li>
-          <li><a href="#contact" className="btn btn-primary nav-cta">Let's Talk</a></li>
+          <li><a href="#contact" className="btn btn-primary nav-cta">Let's Connect</a></li>
         </ul>
       </div>
     </nav>
