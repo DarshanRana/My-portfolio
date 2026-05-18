@@ -1,6 +1,6 @@
 export const portfolioData = {
   hero: {
-    name: "Drshan Rana ",
+    name: "Darshan Rana ",
     role: "Software Engineer",
     tagline: "Transforming complex problems into elegant web applications and AI-driven solutions.",
     image: "/assets/profile_nobg.png",
