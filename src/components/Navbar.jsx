@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'nav-scrolled glass' : ''}`}>
       <div className="nav-container">
         <a href="#home" className="logo">
-          Drshan<span className="logo-accent">.Dev</span>
+          Darshan<span className="logo-accent">.Dev</span>
         </a>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>

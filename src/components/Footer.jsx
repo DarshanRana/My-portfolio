@@ -6,7 +6,7 @@ const Footer = () => {
   const { name } = portfolioData.hero;
   const { github, linkedin, email } = portfolioData.socials;
   const cleanedName = name.trim();
-  const firstName = cleanedName.split(' ')[0]; // "Drshan"
+  const firstName = cleanedName.split(' ')[0]; // "Darshan"
 
   return (
     <footer className="footer">
