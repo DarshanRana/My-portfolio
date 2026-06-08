@@ -37,7 +37,7 @@ export const portfolioData = {
       description: "India's premier heavy machinery logistics platform. Serves as a specialized agency directory for heavy haulage carriers and out-of-gauge cargo.",
       tech: ["React", "Tailwind CSS", "Framer Motion", "Leaflet"],
       image: "/assets/shipgod_mockup.png",
-      liveLink: "#",
+      liveLink: "https://ship-god.vercel.app/",
       githubLink: "https://github.com/DarshanRana/ShipGod.git"
     },
     {
@@ -53,7 +53,7 @@ export const portfolioData = {
   education: [
     {
       id: 1,
-      degree: "Bachelor of Technology in Computer Science",
+      degree: "Bachelor of Technology (B.Tech) in Computer Engineering",
       institution: "CVM UNIVERSITY",
       duration: "2023 - 2027",
       description: "Focused on Software Engineering, Machine Learning, and Web Technologies. Completed final year project on AI-Driven Air Defence Systems."
